@@ -14,7 +14,7 @@ Example GitHub Actions for common Bit and Git CI/CD workflows.
 ## Setup Guide
 
 1. You need to place them inside `.github/workflows/` directory at the root of your GitHub repository.
-2. You must set `BIT_CONFIG_USER_TOKEN` environment variable at the job level before running these tasks. You also need `GITHUB_TOKEN` environment variable for `bit-tasks/commit-bitmap@v1` task.
+2. You must set `BIT_CONFIG_USER_TOKEN` environment variable at the job level before running these tasks. You also need `GITHUB_TOKEN` environment variable for `bit-tasks/commit-bitmap@v1` task. For more information refer GitHub [Encrypted Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets).
 3. If your workspace is not at the root of the Git repository, specify the input parameter `ws-dir` in the task `bit-tasks/init@v1`.
 
 ## Contributor Guide
