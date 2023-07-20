@@ -3,13 +3,13 @@ Example GitHub Actions for common Bit and Git CI/CD workflows.
 
 ## List of GitHub Action Examples
 
-- Initialize Bit - [bit-init.yml](/actions/bit-init.yml) 
-- Bit Verify Components - [verify.yml](/actions/verify.yml)
-- Bit Tag and Export - [tag-export.yml](/actions/tag-export.yml)
-- Bit Pull Request Build - [pull-request.yml](/actions/pull-request.yml)
-- Commit Bitmap - [commit-bitmap.yml](/actions/commit-bitmap.yml)
-- Dependency Update - [dependency-update.yml](/actions/dependency-update.yml)
-- Branch Lane - [branch-lane.yml](/actions/branch-lane.yml)
+- Initialize Bit - [bit-init.yml](/github-actions/bit-init.yml) 
+- Bit Verify Components - [verify.yml](/github-actions/verify.yml)
+- Bit Tag and Export - [tag-export.yml](/github-actions/tag-export.yml)
+- Bit Pull Request Build - [pull-request.yml](/github-actions/pull-request.yml)
+- Commit Bitmap - [commit-bitmap.yml](/github-actions/commit-bitmap.yml)
+- Dependency Update - [dependency-update.yml](/github-actions/dependency-update.yml)
+- Branch Lane - [branch-lane.yml](/github-actions/branch-lane.yml)
 
 ## Setup Guide
 
