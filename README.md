@@ -1,4 +1,4 @@
-# GitHub Action Examples for Bit and Git CI/CD Pipelines
+# Bit GitHub Action Examples for Git CI/CD Pipelines
 Example GitHub Actions for common Bit and Git CI/CD workflows.
 
 ## List of GitHub Action Examples
