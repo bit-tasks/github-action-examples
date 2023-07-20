@@ -1,0 +1,25 @@
+name: Bit Branch Lane
+on:
+  push:
+    branches-ignore:
+      - main # or your default branch
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      BIT_CONFIG_USER_TOKEN: ${{ secrets.BIT_CONFIG_USER_TOKEN }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Initialize Bit
+        uses: bit-tasks/init@v1
+      - name: Bit Branch Lane
+        uses: bit-tasks/branch-lane@v1
+      - name: Commit Bitmap
+        uses: bit-tasks/commit-bitmap@v1
+        with:
+            git-user-name: '<GIT_USER_NAME>'
+            git-user-email: '<GIT_USER_EMAIL>'
