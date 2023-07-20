@@ -15,19 +15,19 @@ Example GitHub Actions for common Bit and Git CI/CD workflows.
 - Bit Pull Request Build - [pull-request.yml](/github-actions/pull-request.yml)
 - Commit Bitmap - [commit-bitmap.yml](/github-actions/commit-bitmap.yml)
 
-  :arrow_down: [Download Files](raw/main/downloads/automating-component-releases.zip)
+  :arrow_down: [Download Files](https://github.com/bit-tasks/github-action-examples/raw/main/downloads/automating-component-releases.zip)
 
 ### Update Workspace Components, External Dependencies and Envs
 
 - Dependency Update - [dependency-update.yml](/github-actions/dependency-update.yml)
 
-  :arrow_down: [Download Files](raw/main/downloads/dependency-update.zip)
+  :arrow_down: [Download Files](https://github.com/bit-tasks/github-action-examples/raw/main/downloads/dependency-update.zip)
 
 ### Sync Git Branches with Bit Lanes
 
 - Branch Lane - [branch-lane.yml](/github-actions/branch-lane.yml)
 
-  :arrow_down: [Download Files](raw/main/downloads/branch-lane.zip)
+  :arrow_down: [Download Files](https://github.com/bit-tasks/github-action-examples/raw/main/downloads/branch-lane.zip)
 
 ## Contributor Guide
 
