@@ -11,7 +11,8 @@ Example GitHub Actions for common Bit and Git CI/CD workflows.
 - Dependency Update - [dependency-update.yml](/actions/dependency-update.yml)
 - Branch Lane - [branch-lane.yml](/actions/branch-lane.yml)
 
-**Guidelines:** 
+## Setup Guide
+
 1. You need to place them inside `.github/workflows/` directory at the root of your GitHub repository.
 2. You must set `BIT_CONFIG_USER_TOKEN` environment variable at the job level before running these tasks. You also need `GITHUB_TOKEN` environment variable for `bit-tasks/commit-bitmap@v1` task.
 3. If your workspace is not at the root of the Git repository, specify the input parameter `ws-dir` in the task `bit-tasks/init@v1`.
