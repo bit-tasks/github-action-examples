@@ -12,11 +12,11 @@ Example GitHub Actions for common Bit and Git CI/CD workflows.
 
 | Task                        | Example                         | Repo and Docs                                 |
 |-----------------------------|---------------------------------|-----------------------------------------------|
-| Initialize Bit             | [yml](/github-actions/bit-init.yml)          | [link](https://github.com/bit-tasks/init)    |
-| Bit Verify Components  | [yml](/github-actions/verify.yml)                | [link](https://github.com/bit-tasks/verify)  |
-| Bit Tag and Export        | [yml](/github-actions/tag-export.yml)  | [link](https://github.com/bit-tasks/tag-export) |
-| Bit Pull Request Build  | [yml](/github-actions/pull-request.yml) | [link](https://github.com/bit-tasks/pull-request) |
-| Commit Bitmap           | [yml](/github-actions/commit-bitmap.yml) | [link](https://github.com/bit-tasks/commit-bitmap) |
+| Initialize Bit             | [bit-init.yml](/github-actions/bit-init.yml)          | [link](https://github.com/bit-tasks/init)    |
+| Bit Verify Components  | [verify.yml](/github-actions/verify.yml)                | [link](https://github.com/bit-tasks/verify)  |
+| Bit Tag and Export        | [tag-export.yml](/github-actions/tag-export.yml)  | [link](https://github.com/bit-tasks/tag-export) |
+| Bit Pull Request Build  | [pull-request.yml](/github-actions/pull-request.yml) | [link](https://github.com/bit-tasks/pull-request) |
+| Commit Bitmap           | [commit-bitmap.yml](/github-actions/commit-bitmap.yml) | [link](https://github.com/bit-tasks/commit-bitmap) |
 
   :arrow_down: [Download Files](https://github.com/bit-tasks/github-action-examples/raw/main/downloads/automating-component-releases.zip)
 
@@ -24,7 +24,7 @@ Example GitHub Actions for common Bit and Git CI/CD workflows.
 
 | Task                        | Example                         | Repo and Docs                                 |
 |-----------------------------|---------------------------------|-----------------------------------------------|
-| Dependency Update           | [yml](/github-actions/dependency-update.yml)   | [link](https://github.com/bit-tasks/dependency-update)   |
+| Dependency Update           | [dependency-update.yml](/github-actions/dependency-update.yml)   | [link](https://github.com/bit-tasks/dependency-update)   |
 
   :arrow_down: [Download Files](https://github.com/bit-tasks/github-action-examples/raw/main/downloads/dependency-update.zip)
 
@@ -32,7 +32,7 @@ Example GitHub Actions for common Bit and Git CI/CD workflows.
 
 | Task                        | Example                         | Repo and Docs                                 |
 |-----------------------------|---------------------------------|-----------------------------------------------|
-| Branch Lane                 | [yml](/github-actions/branch-lane.yml)  |  [link](https://github.com/bit-tasks/branch-lane) |
+| Branch Lane                 | [branch-lane.yml](/github-actions/branch-lane.yml)  |  [link](https://github.com/bit-tasks/branch-lane) |
 
   :arrow_down: [Download Files](https://github.com/bit-tasks/github-action-examples/raw/main/downloads/branch-lane.zip)
 
