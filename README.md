@@ -16,6 +16,7 @@ Example GitHub Actions for common Bit and Git CI/CD workflows.
 | Bit Verify Components  | [verify.yml](/github-actions/verify.yml)                | [link](https://github.com/bit-tasks/verify)  |
 | Bit Tag and Export        | [tag-export.yml](/github-actions/tag-export.yml)  | [link](https://github.com/bit-tasks/tag-export) |
 | Bit Pull Request Build  | [pull-request.yml](/github-actions/pull-request.yml) | [link](https://github.com/bit-tasks/pull-request) |
+| Bit Lane Cleanup  | [lane-cleanup.yml](/github-actions/lane-cleanup.yml) | [link](https://github.com/bit-tasks/lane-cleanup) |
 | Commit Bitmap           | [commit-bitmap.yml](/github-actions/commit-bitmap.yml) | [link](https://github.com/bit-tasks/commit-bitmap) |
 
   :arrow_down: [Download Files](https://github.com/bit-tasks/github-action-examples/raw/main/downloads/automating-component-releases.zip)
@@ -38,8 +39,9 @@ Example GitHub Actions for common Bit and Git CI/CD workflows.
 
 ## Contributor Guide
 
-```
-git commit -m "Update task"
-git tag -a -m "action release" v1 --force
-git push --follow-tags
+To create zip files use the below commands.
+
+```bash
+chmod +x zip_files.sh
+bash ./zip_files.sh
 ```
