@@ -20,5 +20,3 @@ jobs:
         uses: bit-tasks/init@v1
       - name: Bit Branch Lane
         uses: bit-tasks/branch-lane@v1
-      - name: Commit Bitmap
-        uses: bit-tasks/commit-bitmap@v1
