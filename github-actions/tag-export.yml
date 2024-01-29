@@ -1,8 +1,12 @@
 name: Tag and Export
 on:
-  workflow_dispatch:
+  pull_request:
+    branches: 
+      - main
+    types: [closed]
 jobs:
   release:
+    if: ${{ github.event.pull_request.merged }}
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
