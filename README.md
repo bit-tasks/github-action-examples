@@ -5,7 +5,7 @@ Example GitHub Actions for common Bit and Git CI/CD workflows.
 
 1. You need to place them inside `.github/workflows/` directory at the root of your GitHub repository.
 2. If your workspace is not at the root of the Git repository, specify the input parameter `ws-dir` in the task `bit-tasks/init@v1`.
-3. Create new [secret variables](https://docs.github.com/en/actions/security-guides/encrypted-secrets) (`BIT_CLOUD_ACCESS_TOKEN`), `GIT_USER_NAME` and `GIT_USER_EMAIL` and use them as [environment variables](https://docs.github.com/en/actions/learn-github-actions/variables) in your GitHub Action.
+3. Create new [secret variables](https://docs.github.com/en/actions/security-guides/encrypted-secrets) (`BIT_CONFIG_ACCESS_TOKEN`), `GIT_USER_NAME` and `GIT_USER_EMAIL` and use them as [environment variables](https://docs.github.com/en/actions/learn-github-actions/variables) in your GitHub Action.
 4. Define `GITHUB_TOKEN` also as an [environment variable](https://docs.github.com/en/actions/learn-github-actions/variables). Here, `GITHUB_TOKEN` secret is [automatically created by GitHub Actions](https://docs.github.com/en/actions/security-guides/automatic-token-authentication).
 
 ### Automating Component Release
