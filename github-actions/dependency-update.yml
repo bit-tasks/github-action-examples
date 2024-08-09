@@ -18,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Initialize Bit
-        uses: bit-tasks/init@v1
+        uses: bit-tasks/init@v2
       - name: Bit Update Dependencies
         uses: bit-tasks/dependency-update@v1
         with:

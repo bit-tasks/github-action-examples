@@ -13,5 +13,8 @@ zip -j downloads/automating-component-releases.zip \
     github-actions/verify.yml
 
 # Zip other individual files
-zip -j downloads/branch-lane.zip github-actions/branch-lane.yml
+zip -j downloads/branch-lane.zip \
+    github-actions/branch-lane.yml \
+    github-actions/lane-branch.yml
+
 zip -j downloads/dependency-update.zip github-actions/dependency-update.yml
