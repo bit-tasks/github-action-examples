@@ -13,6 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Initialize Bit
-        uses: bit-tasks/init@v2
+        uses: bit-tasks/init@v3
       - name: Bit Verify
         uses: bit-tasks/verify@v1

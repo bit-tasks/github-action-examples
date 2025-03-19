@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Initialize Bit
-        uses: bit-tasks/init@v2
+        uses: bit-tasks/init@v3
       - name: Bit Tag and Export
         uses: bit-tasks/tag-export@v1
       - name: Commit Bitmap

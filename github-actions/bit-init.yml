@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Initialize Bit
-        uses: bit-tasks/init@v2
+        uses: bit-tasks/init@v3
       - name: Resolve component packages from bit.cloud registry (Mandatory for component installation using package managers other than Bit)
         run: |
           npm config set '@bit:registry' https://node-registry.bit.cloud
