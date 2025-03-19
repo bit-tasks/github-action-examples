@@ -20,7 +20,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Initialize Bit
-        uses: bit-tasks/init@v2
+        uses: bit-tasks/init@v3
         with:
           skip-install: "true"
       - name: Bit Lane Branch

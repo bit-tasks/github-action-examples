@@ -17,6 +17,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Initialize Bit
-        uses: bit-tasks/init@v2
+        uses: bit-tasks/init@v3
       - name: Bit Branch Lane
         uses: bit-tasks/branch-lane@v1
