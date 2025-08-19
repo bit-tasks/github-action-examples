@@ -1,4 +1,5 @@
 # Bit GitHub Action Examples for Git CI/CD Pipelines
+
 Example GitHub Actions for common Bit and Git CI/CD workflows.
 
 ## Setup Guide
@@ -10,33 +11,30 @@ Example GitHub Actions for common Bit and Git CI/CD workflows.
 
 ### Automating Component Release
 
-| Task                        | Example                         | Repo and Docs                                 |
-|-----------------------------|---------------------------------|-----------------------------------------------|
-| Initialize Bit             | [bit-init.yml](/github-actions/bit-init.yml)          | [link](https://github.com/bit-tasks/init)    |
-| Bit Verify Components  | [verify.yml](/github-actions/verify.yml)                | [link](https://github.com/bit-tasks/verify)  |
-| Bit Tag and Export        | [tag-export.yml](/github-actions/tag-export.yml)  | [link](https://github.com/bit-tasks/tag-export) |
-| Bit Pull Request Build  | [pull-request.yml](/github-actions/pull-request.yml) | [link](https://github.com/bit-tasks/pull-request) |
-| Bit Lane Cleanup  | [lane-cleanup.yml](/github-actions/lane-cleanup.yml) | [link](https://github.com/bit-tasks/lane-cleanup) |
-| Commit Bitmap           | [commit-bitmap.yml](/github-actions/commit-bitmap.yml) | [link](https://github.com/bit-tasks/commit-bitmap) |
+| Task                   | Example                                              | Repo and Docs                                     |
+| ---------------------- | ---------------------------------------------------- | ------------------------------------------------- |
+| Bit Verify Components  | [verify.yml](/github-actions/verify.yml)             | [link](https://github.com/bit-tasks/verify)       |
+| Bit Tag and Export     | [tag-export.yml](/github-actions/tag-export.yml)     | [link](https://github.com/bit-tasks/tag-export)   |
+| Bit Pull Request Build | [pull-request.yml](/github-actions/pull-request.yml) | [link](https://github.com/bit-tasks/pull-request) |
 
-  :arrow_down: [Download Files](https://github.com/bit-tasks/github-action-examples/raw/main/downloads/automating-component-releases.zip)
+:arrow_down: [Download Files](https://github.com/bit-tasks/github-action-examples/raw/main/downloads/automating-component-releases.zip)
 
 ### Update Workspace Components, External Dependencies and Envs
 
-| Task                        | Example                         | Repo and Docs                                 |
-|-----------------------------|---------------------------------|-----------------------------------------------|
-| Dependency Update           | [dependency-update.yml](/github-actions/dependency-update.yml)   | [link](https://github.com/bit-tasks/dependency-update)   |
+| Task              | Example                                                        | Repo and Docs                                          |
+| ----------------- | -------------------------------------------------------------- | ------------------------------------------------------ |
+| Dependency Update | [dependency-update.yml](/github-actions/dependency-update.yml) | [link](https://github.com/bit-tasks/dependency-update) |
 
-  :arrow_down: [Download Files](https://github.com/bit-tasks/github-action-examples/raw/main/downloads/dependency-update.zip)
+:arrow_down: [Download Files](https://github.com/bit-tasks/github-action-examples/raw/main/downloads/dependency-update.zip)
 
 ### Sync Git Branches with Bit Lanes
 
-| Task                        | Example                         | Repo and Docs                                 |
-|-----------------------------|---------------------------------|-----------------------------------------------|
-| Branch Lane                 | [branch-lane.yml](/github-actions/branch-lane.yml)  |  [link](https://github.com/bit-tasks/branch-lane) |
-| Lane Branch                 | [lane-branch.yml](/github-actions/lane-branch.yml)  |  [link](https://github.com/bit-tasks/lane-branch) |
+| Task        | Example                                            | Repo and Docs                                    |
+| ----------- | -------------------------------------------------- | ------------------------------------------------ |
+| Branch Lane | [branch-lane.yml](/github-actions/branch-lane.yml) | [link](https://github.com/bit-tasks/branch-lane) |
+| Lane Branch | [lane-branch.yml](/github-actions/lane-branch.yml) | [link](https://github.com/bit-tasks/lane-branch) |
 
-  :arrow_down: [Download Files](https://github.com/bit-tasks/github-action-examples/raw/main/downloads/branch-lane.zip)
+:arrow_down: [Download Files](https://github.com/bit-tasks/github-action-examples/raw/main/downloads/branch-lane.zip)
 
 ## Contributor Guide
 
