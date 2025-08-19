@@ -1,9 +1,14 @@
 name: Tag and Export
 on:
   pull_request:
-    branches: 
+    branches:
       - main
     types: [closed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   release:
     if: ${{ github.event.pull_request.merged }}
@@ -19,4 +24,4 @@ jobs:
       - name: Initialize Bit
         uses: bit-tasks/init@v3
       - name: Bit Tag and Export
-        uses: bit-tasks/tag-export@v1
+        uses: bit-tasks/tag-export@v4
